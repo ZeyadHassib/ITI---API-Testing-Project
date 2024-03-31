@@ -1,0 +1,30 @@
+
+
+<project>
+<modelVersion>4.0.0</modelVersion>
+
+<groupId>test</groupId>
+<artifactId>RestAssured_ITI_req.io</artifactId>
+<version>1</version>
+    <properties>
+        <maven.compiler.source>19</maven.compiler.source>
+        <maven.compiler.target>19</maven.compiler.target>
+    </properties>
+    <dependencies>
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.4.0</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.9.0</version>
+        <scope>test</scope>
+    </dependency>
+
+
+</dependencies>
+</project>
