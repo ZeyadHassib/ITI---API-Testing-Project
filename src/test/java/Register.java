@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class Register {
 
-    //Final
+
     @Test()
     public void validRegister() {
         given()
